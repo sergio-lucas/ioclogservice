@@ -2,8 +2,10 @@
   "name": "@sergio-lucas/ioclogservice",
   "version": "0.0.1",
   "description": "IOC container and log service",
-  "main": "index.js",
+  "main": "src/main.js",
+  "jsdelivr": "dist/bundle.min.js",
   "scripts": {
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +21,16 @@
   "bugs": {
     "url": "https://github.com/sergio-lucas/ioclogservice/issues"
   },
-  "homepage": "https://github.com/sergio-lucas/ioclogservice#readme"
+  "homepage": "https://github.com/sergio-lucas/ioclogservice#readme",
+  "dependencies": {
+    "bottlejs": "^2.0.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^18.0.0",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "mkdirp": "^1.0.4",
+    "rollup": "^2.45.2",
+    "rollup-plugin-minify": "^1.0.3",
+    "rollup-plugin-terser": "^7.0.2"
+  }
 }
