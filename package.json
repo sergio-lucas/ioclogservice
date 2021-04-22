@@ -1,6 +1,6 @@
 {
   "name": "@sergio-lucas/ioclogservice",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "IOC container and log service",
   "main": "src/main.js",
   "jsdelivr": "dist/bundle.min.js",

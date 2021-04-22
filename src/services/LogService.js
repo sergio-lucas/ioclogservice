@@ -1,5 +1,4 @@
 class LogService {
-  static BASE_URL = "";
   constructor() {
       this.meta = {};
       this.server = LogService.BASE_URL;
