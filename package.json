@@ -1,5 +1,5 @@
 {
-  "name": "@sergio-lucas/ioclogservice",
+  "name": "@sergio_lucas/ioclogservice",
   "version": "0.0.2",
   "description": "IOC container and log service",
   "main": "src/main.js",
@@ -29,8 +29,12 @@
     "@rollup/plugin-commonjs": "^18.0.0",
     "@rollup/plugin-node-resolve": "^11.2.1",
     "mkdirp": "^1.0.4",
+    "pre-commit": "^1.2.2",
     "rollup": "^2.45.2",
     "rollup-plugin-minify": "^1.0.3",
     "rollup-plugin-terser": "^7.0.2"
-  }
+  },
+  "pre-commit": [
+    "build"
+  ]
 }
